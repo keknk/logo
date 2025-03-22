@@ -1,5 +1,5 @@
 {\rtf1\ansi\ansicpg1252\cocoartf2821
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AppleColorEmoji;}
 {\colortbl;\red255\green255\blue255;}
 {\*\expandedcolortbl;;}
 \margl1440\margr1440\vieww11520\viewh8400\viewkind0
@@ -30,7 +30,9 @@ def tracker():\
 \
 @app.route('/')\
 def home():\
-    return 'Pixel funcionando \uc0\u9989 '\
+    return 'Pixel funcionando 
+\f1 \uc0\u9989 
+\f0 '\
 \
 if __name__ == '__main__':\
     app.run(host='0.0.0.0', port=10000)}
