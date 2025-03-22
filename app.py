@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-@app.route('/logo')
+@app.route('/tracker')
 def tracker():
     ip = request.headers.get('X-Forwarded-For', request.remote_addr)
     user_agent = request.headers.get('User-Agent')
